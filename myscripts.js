@@ -1,0 +1,1 @@
+console.log('el JS está conectado correctamente');
