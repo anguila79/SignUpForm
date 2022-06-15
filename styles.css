@@ -9,6 +9,7 @@
 
 body{
     margin: 0;
+    background-color: #f9fafb;
 }
 
 .container{
@@ -20,6 +21,10 @@ body{
 
 .right-panel{
     background-image: url("img/leaf-background.avif");
+}
+
+.left-panel{
+    margin-top: 10%;
 }
 
 .logo-container{
@@ -43,8 +48,76 @@ body{
     color: white;
 }
 
-.header-text{
+.header, .footer {
+    padding: 0 3rem;
+}
+
+.main-text{
     color: black;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: bold;
+}
+
+.secondary-text{
+    color: black;
+    font-size: 18px;
+}
+
+.form-card{
+    margin-top: 4%;
+    margin-bottom: 3%;
+    background: white;
+    padding: 25px 3rem;
+    box-shadow: 15px 5px 17px -6px #b8b8b8;
+}
+
+.inputs-group{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 90%;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    margin-right: 48px;
+    margin-top: 24px;
+}
+
+label{
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+input{ 
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 18px;
+    border: solid 0.5px #E5E7EB;
+}
+
+input:focus{
+    border-color: #1d4ed8;
+    box-shadow: 0 0 5px 2px #D3D3D3;
+    outline-width: 0px;
+}
+
+.create-button{
+    background-color: #596d48;
+    color: white;
+    padding: 12px 36px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    user-select: none;
+}
+
+.login-text{
+    color: #596d48;
+    font-weight: bold;
+    text-decoration: none;
 }
