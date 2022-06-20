@@ -104,6 +104,13 @@ input:focus{
     outline-width: 0px;
 }
 
+#errorPassword{
+    color: #b91c1c;
+    margin-top: 5px;
+    font-size: 14px;
+    display: none;
+}
+
 .create-button{
     background-color: #596d48;
     color: white;

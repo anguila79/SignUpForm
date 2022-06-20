@@ -25,7 +25,7 @@
                 </p>
                 <p class="main-text">You <i>know</i> you want to.</p>
             </div>
-            <form id="login-form" action="#"></form>
+            <form id="login-form" action="#">
                 <div class="form-card">
                     <p class="main-text" style="margin-top: 0; margin-bottom: 0;">Let's do this!</p>
                     <div class="inputs-group">
@@ -48,6 +48,7 @@
                         <div class="form-group">
                             <label for="password">password</label>
                             <input type="password" id="password" required>
+                            <span id="errorPassword">* Passwords do not match</span>
                         </div>
                         <div class="form-group">
                             <label for="repeatpassword">Repeat password</label>
@@ -56,7 +57,7 @@
                     </div>
                 </div>
                 <div class="footer">
-                    <button type="submit" form="login-form" class="create-button">Create Account</button>
+                    <button type="submit" id="submitButton" form="login-form" class="create-button">Create Account</button>
                     <p class="secondary-text">Already have an account? <a href="#" class="login-text">Log in</a></p>
                 </div>
             </form>
